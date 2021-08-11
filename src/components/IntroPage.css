@@ -1,0 +1,64 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  top: 0;
+  position: absolute;
+  transition: all 0.5s;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 60px;
+  gap: 20px;
+}
+.page.hide {
+  display: none !important;
+}
+.welcome-container {
+  z-index: 2000;
+  left: 0;
+  gap: 50px;
+}
+.jflip {
+  background-color: #ffc700c2;
+  padding: 1px 8px;
+  display: inline-block;
+  box-sizing: border-box;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+.help-container {
+  z-index: 2000000;
+  left: 100vw;
+  padding: 20px 20vw;
+}
+.help-container.active {
+  left: 0 !important;
+}
+.help-container.active .help-cta {
+  width: fit-content;
+}
+.help-container p {
+  font-size: 16px;
+}
+.help-header {
+  font-family: 'Poppins';
+  font-size: 35px;
+  color: #ffc700;
+}
+.help-img {
+  width: 100%;
+}
+.help-logo {
+  width: 250px;
+}
+.help-cta {
+  /* background-color: #000 !important; */
+  /* margin-top: 20px !important; */
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: normal;
+  width: 150px;
+  font-size: 18px !important;
+}

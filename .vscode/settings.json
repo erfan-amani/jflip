@@ -1,0 +1,33 @@
+{
+  "todohighlight.defaultStyle": {
+    "backgroundColor": "LATER"
+  },
+  "todohighlight.keywords": [
+    "DEBUG:",
+    "REVIEW:",
+    {
+      "text": "LATER",
+      "color": "#000",
+      "backgroundColor": "#fff"
+    },
+    {
+      "text": "TODO",
+      "color": "#000",
+      "backgroundColor": "#fafc03",
+      "isWholeLine": false
+    },
+
+    {
+      "text": "TEMP",
+      "color": "#FFF",
+      "backgroundColor": "#0fb525",
+      "isWholeLine": false
+    },
+    {
+      "text": "FIXME",
+      "color": "#FFF",
+      "backgroundColor": "#f10007",
+      "isWholeLine": false
+    }
+  ]
+}
