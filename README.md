@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# JFLIP Project
+
+Jflip app was a university project for Formal Languages and Automata course.
+You can draw your machine easily with tools are provided, then you can run NFA to DFA or Minimization algorithms on your machine and see your output.
+NOTE: unfortunately right now app doesn't work properly in small devices like some small tablets and mobile devices. So for having the best experience with this app use in a desktop screen size. Thanks
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
